@@ -2,7 +2,7 @@ name: sample-github-acions
 on: workflow_dispatch
 jobs:
   first_job:
-    runs_on: ubuntu:latest
+    runs-on: ubuntu:latest
     steps:
     - name: First step
       run: echo "Hello"
