@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: First step
-      run: echo "Hello"
+      run: |
+           echo "Hello"
+           echo "world"
+           
     - name: second step
       run: echo "Done"
